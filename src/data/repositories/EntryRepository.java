@@ -11,7 +11,7 @@ public interface EntryRepository {
     Entry findEntryIdAndDiaryId(int entryId, int diaryId);
     void delete (int id);
     void delete (Entry entry);
-    long count();
+     long count();
     void clear();
 
 
